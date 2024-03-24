@@ -1,0 +1,7 @@
+# This file was automatically generated
+name: acdc_database
+type: postgres
+options:
+  host: localhost
+  port: 5432
+  database: acdc_database
