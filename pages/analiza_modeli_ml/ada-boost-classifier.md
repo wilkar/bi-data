@@ -16,14 +16,14 @@ title: Model AdaBoostClassifier
 ```
 
 
-![Confusion Matrix](/confusion-matrix-ada-boost-classifier.png)
+![Confusion Matrix](śconfusion-matrix-ada-boost-classifier.png)
 Legenda:
     - True-Negative (Lewy górny róg, TN): Liczba poprawnie sklasyfikowanych ofert jako "niepodejrzane".
     - False-Positivve (Prawy górny róg, FP): Liczba ofert błędnie zakwalifikowanych jako "podejrzane", które faktycznie są poprawne.
     - False-Negative (Lewy dolny róg, FN): Liczba ofert błędnie zakwalifikowanych jako "niepodejrzane", które są podejrzane.
     - False-Positive (Prawy dolny róg, TP): Liczba poprawnie sklasyfikowanych ofert jako "podejrzane".
 
-![Precision Recall](/precision-recall-ada-boost-classfier.png)
+![Precision Recall](precision-recall-ada-boost-classfier.png)
 Legenda:
     - Precision (precyzja): Proporcja poprawnie zidentyfikowanych pozytywnych przypadków (TP) do wszystkich przypadków zidentyfikowanych jako pozytywne (TP + FP).
     - Recall (czułość): Proporcja poprawnie zidentyfikowanych pozytywnych przypadków (TP) do wszystkich faktycznie pozytywnych przypadków (TP + FN).
