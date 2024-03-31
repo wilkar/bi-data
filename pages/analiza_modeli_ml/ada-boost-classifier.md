@@ -16,7 +16,7 @@ title: Model AdaBoostClassifier
 ```
 
 
-![Confusion Matrix](/static/confusion-matrix-ada-boost-classfier.png)
+![Confusion Matrix](/static/confusion-matrix-ada-boost-classifier.png)
 Legenda:
     - True-Negative (Lewy górny róg, TN): Liczba poprawnie sklasyfikowanych ofert jako "niepodejrzane".
     - False-Positivve (Prawy górny róg, FP): Liczba ofert błędnie zakwalifikowanych jako "podejrzane", które faktycznie są poprawne.
