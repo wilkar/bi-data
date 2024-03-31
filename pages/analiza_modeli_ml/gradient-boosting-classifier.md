@@ -16,14 +16,14 @@ title: Model GradientBoostingClassifier
 ```
 
 
-![Confusion Matrix](/static/confusion-matrix-gradient-boost-classifier.png)
+![Confusion Matrix](/static/assets/confusion-matrix-gradient-boost-classifier.png)
 Legenda:
     - True-Negative (Lewy górny róg, TN): Liczba poprawnie sklasyfikowanych ofert jako "niepodejrzane".
     - False-Positivve (Prawy górny róg, FP): Liczba ofert błędnie zakwalifikowanych jako "podejrzane", które faktycznie są poprawne.
     - False-Negative (Lewy dolny róg, FN): Liczba ofert błędnie zakwalifikowanych jako "niepodejrzane", które są podejrzane.
     - False-Positive (Prawy dolny róg, TP): Liczba poprawnie sklasyfikowanych ofert jako "podejrzane".
 
-![Precision Recall](/static/precision-recall-gradient-boosting-classifier.png)
+![Precision Recall](/static/assets/precision-recall-gradient-boosting-classifier.png)
 Legenda:
     - Precision (precyzja): Proporcja poprawnie zidentyfikowanych pozytywnych przypadków (TP) do wszystkich przypadków zidentyfikowanych jako pozytywne (TP + FP).
     - Recall (czułość): Proporcja poprawnie zidentyfikowanych pozytywnych przypadków (TP) do wszystkich faktycznie pozytywnych przypadków (TP + FN).
