@@ -12,7 +12,7 @@ Wykorzystano sześć różnych modeli wchodzących w skład biblioteki `sklearn`
         - ExtraTreesClassifier,
         - KNeighborsClassifier
 
-Każdy z modeli zbudowno przy użyciu dwóch metod oznaczania danych omawianych we [wcześniejszym rozdziale](/pages/data_labeling/index.md). Tworzenie gotowego zestawu na potrzeby tworzenia modeli wyniesniono do osobnej klasy
+Każdy z modeli zbudowno przy użyciu dwóch metod oznaczania danych omawianych we [wcześniejszym rozdziale](/b_data_labeling/). Tworzenie gotowego zestawu na potrzeby tworzenia modeli wyniesniono do osobnej klasy
 ```python
 from src.repositories.helpers import get_engine
 from src.repositories.offer.sql_alchemy import SqlAlchemyOfferRepository

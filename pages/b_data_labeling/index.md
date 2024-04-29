@@ -136,7 +136,7 @@ GROUP BY agreement;
 
 ### Kolejne kroki
 
-Tak zbudowane zbiory danych zostały wykorzystane do zbudowania modeli ML, które są omówione w sekcji [Analiza modeli ML](/pages/analiza_modeli_ml/index.md)
+Tak zbudowane zbiory danych zostały wykorzystane do zbudowania modeli ML, które są omówione w sekcji [Analiza modeli ML](/d_analiza_modeli_ml/)
 
 ### Spis treści bieżącej sekcji
 

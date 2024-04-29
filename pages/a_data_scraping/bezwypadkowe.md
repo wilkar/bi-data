@@ -107,4 +107,4 @@ class TrainingData:
     vin: str | None
 ```
 
-Dokładne wyniki skanowania oraz rezultaty wykorzystania tych danych do oznaczania podejrzanych ofert dostępne są w sekcji [Data Labeling](/pages/data_labeling/index.md)
+Dokładne wyniki skanowania oraz rezultaty wykorzystania tych danych do oznaczania podejrzanych ofert dostępne są w sekcji [Data Labeling](/b_data_labeling/)

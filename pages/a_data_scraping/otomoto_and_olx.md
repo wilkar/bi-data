@@ -527,4 +527,4 @@ def _olx_api_url_builder(self, page: int, category_id: int) -> str:
 
 Dzięki tej metodzie udało się efektywnie łączyć dane z obu portali, co znacząco usprawniło proces gromadzenia danych dla dalszych etapów pracy, w tym oznaczania danych oraz budowania modeli ML. Szczegółowe analizy są dostępne w dedykowanych sekcjach dokumentacji projektu.
 
-Zebrane dane zostałyt wykorzystane w kolejnych krokach, czyli [oznaczaniu danych](/pages/data_labeling/index.md) oraz budowaniu[modeli ML](/pages/analiza_modeli_ml/index.md). Z kolei szczegółowa analiza eksploracyjna widoczna jest w [osobnej sekcji](/pages/analiza_eksploracyjna/index.md)
+Zebrane dane zostałyt wykorzystane w kolejnych krokach, czyli [oznaczaniu danych](/b_data_labeling/) oraz budowaniu[modeli ML](/d_analiza_modeli_ml/). Z kolei szczegółowa analiza eksploracyjna widoczna jest w [osobnej sekcji](/d_analiza_eksploracyjna/)
