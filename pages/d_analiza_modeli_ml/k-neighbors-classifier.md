@@ -5,7 +5,7 @@ title: Model KNeighborsClassifier
 
 ## Wstęp
 
-Poniższy artykuł prezentuje szczegółową analizę modelu `KNeighborsClassifier` zbudowanego przy użyciu [omawianych wcześniej](/analiza_modeli_ml/index.md) dwóch podejść do oznaczania danych.
+Poniższy artykuł prezentuje szczegółową analizę modelu `KNeighborsClassifier` zbudowanego przy użyciu [omawianych wcześniej](/d_analiza_modeli_ml/) dwóch podejść do oznaczania danych.
 
 ## Legenda
 
