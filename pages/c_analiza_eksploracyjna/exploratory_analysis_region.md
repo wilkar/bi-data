@@ -25,7 +25,7 @@ select region, count(*) as ct from offers_location where region like '${inputs.r
 ```
 
 ```sql cities
-select city, region, count(*) as ct from offers_location where region like '${inputs.region.value}' group by region, city
+select city, region, count(*) as ct from offers_location where region like '${inputs.city.value}' group by region, city
 ```
 
 <BarChart 

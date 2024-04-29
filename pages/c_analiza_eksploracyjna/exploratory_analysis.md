@@ -31,11 +31,11 @@ select vin, count(*) ct from offers_base group by vin order by ct desc
 <DataTable data={invalid_vin_values} rows=6/>
 
 
-Jak widać pole VIN zawiera 68k unikalnych rekordów na prawie 90k ofert. Prawie 20k ofert nie posiada VIN, a około 10k ofert posiada wprowadzone nieprawiłowe dane. Oferty z nieprawidłowym VINem są traktowane jako podejrzane i posłużyły do budowy modelu. Na uwagę zasługuje też, że OLX i OTOMOTO nie posiadają żadnej walidacji VINu, która mogłaby powstrzymać najbardziej oczywiste błędne wartości.
+Jak widać pole VIN zawiera 128000 unikalnych rekordów na 2000000 ofert. Prawie 400000 ofert nie posiada VIN, a około 15000 ofert posiada wprowadzone nieprawiłowe dane. Oferty z nieprawidłowym VINem są traktowane jako podejrzane i posłużyły do budowy jednego z modeli danych. Na uwagę zasługuje też, że OLX i OTOMOTO nie posiadają żadnej walidacji VINu, która mogłaby powstrzymać najbardziej oczywiste błędne wartości.
 
 
 ```sql brands
-select distinct(lower(brand)) as brand from offers_base where lower(brand) in ( 'opel',
+select DISTINCT(lower(brand)) as brand from offers_base where lower(brand) in ( 'opel',
                             'ford',
                             'renault',
                             'audi',
@@ -97,10 +97,10 @@ select distinct(lower(brand)) as brand from offers_base where lower(brand) in ( 
 ```sql created_at_aggregated
 select date_trunc('month', created_time) as month,
     count(*) as number_of_adds,
-    lower(brand) as brand
+    (lower(brand)) as brand
 from offers_base
 where lower(brand) like '${inputs.brand.value}'
-and date_part('year', created_time) like '${inputs.year.value}' and lower(brand) in ( 'opel',
+and date_part('year', created_time) like '${inputs.year.value}' and lower(brand) in ('opel',
                             'ford',
                             'renault',
                             'audi',
@@ -145,7 +145,7 @@ and date_part('year', created_time) like '${inputs.year.value}' and lower(brand)
                             'aixam',
                             'cadillac',
                             'polonez')
-group by month, brand
+group by month, lower(brand)
 order by number_of_adds desc
 ```
 <BarChart
@@ -174,4 +174,4 @@ fillCollor='488f96'
 >
   <ReferenceArea xMin="2024-03-11" xMax="2024-03-13" label="Pierwszy pełny obieg scrapera" color=red/> </BarChart>
 
-Powyższy wykres przestawia ilość zebranych ofert w każdym obiegu scrapera. Jak widać pierwszy run pobrał prawie 40k ofert z całego OLX. OLX ogranicza paginację API do 10 stron, więc nie udało się pobrać całej bazy strony. Po tym wprowadzono zmiany w scraperze, który od tej pory zaczynał scraping od ostatnio dodanych, więc kolejne obiegi scrapera pokazują ilość nowo doddanych ofert do serwisu. Ilość ta utrzymuje się na stałym poziomie około 5k dziennie.
+Powyższy wykres przestawia ilość zebranych ofert w każdym obiegu scrapera. Jak widać pierwszy run pobrał prawie 40k ofert z całego OLX. OLX ogranicza paginację API do 25 stron, więc nie udało się pobrać całej bazy strony. Po tym wprowadzono zmiany w scraperze, który od tej pory zaczynał scraping od ostatnio dodanych, więc kolejne obiegi scrapera pokazują ilość nowo doddanych ofert do serwisu. Ilość ta utrzymuje się na stałym poziomie około 5k dziennie.

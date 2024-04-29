@@ -11,7 +11,7 @@ select CONCAT(ROUND(avg(milage), 2), ' km') as avg_milage from offers_details
 ```
 
 ```sql avg_price_model
-SELECT brand, model, CONCAT(ROUND(AVG(price), 2), ' PLN') AS avg_price
+SELECT lower(brand) as brand, lower(model) as model, CONCAT(ROUND(AVG(price), 2), ' PLN') AS avg_price
 FROM offers_base as ob left join offers_details as od on ob.clasfieds_id = od.clasfieds_id where lower(brand) in ( 'opel',
                             'ford',
                             'renault',
@@ -62,7 +62,7 @@ ORDER BY AVG(price) DESC
 ```
 
 ```sql avg_milage_model
-SELECT brand, model, CONCAT(ROUND(AVG(milage), 2), ' km') AS avg_milage
+SELECT lower(brand) as brand, lower(model) as model, CONCAT(ROUND(AVG(milage), 2), ' km') AS avg_milage
 FROM offers_base as ob left join offers_details as od on ob.clasfieds_id = od.clasfieds_id where lower(brand) in ( 'opel',
                             'ford',
                             'renault',
