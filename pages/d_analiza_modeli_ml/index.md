@@ -492,9 +492,9 @@ y={["F1-score_VIN", "F1-score_Description"]}
 
 ### Spis treści bieżącej sekcji
 
-1. [Model AdaBoostClassifier](/analiza_modeli_ml/ada-boost-classfier)
-1. [Model ExtraTreesClassifier](/analiza_modeli_ml/extra-trees-classifier)
-1. [Model GradientBoostingClassifier](/analiza_modeli_ml/gradient-boosting-classifier)
-1. [Model KNeighborsClassifier](/analiza_modeli_ml/k-neighbors-classifier)
-1. [Model LogisticRegression](/analiza_modeli_ml/logistic-regression)
-1. [Model RandomForestClassifier](/analiza_modeli_ml/random-forest-classifier)
+1. [Model AdaBoostClassifier](/d_analiza_modeli_ml/ada-boost-classfier)
+1. [Model ExtraTreesClassifier](/d_analiza_modeli_ml/extra-trees-classifier)
+1. [Model GradientBoostingClassifier](/d_analiza_modeli_ml/gradient-boosting-classifier)
+1. [Model KNeighborsClassifier](/d_analiza_modeli_ml/k-neighbors-classifier)
+1. [Model LogisticRegression](/d_analiza_modeli_ml/logistic-regression)
+1. [Model RandomForestClassifier](/d_analiza_modeli_ml/random-forest-classifier)

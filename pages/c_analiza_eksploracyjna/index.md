@@ -17,7 +17,7 @@ Czyszczenie danych zostało wykonane adhoc w warstwie wizualizacji danych. Nale�
 
 ### Spis treści bieżącej sekcji
 
-1. [Analiza eksploracyjna - przegląd podstawowych informacji](/analiza_eksploracyjna/exploratory_analysis)
-1. [Analiza eksploracyjna - dostepne modele, wiek, stan, wyposażenie](/analiza_eksploracyjna/exploratory_analysis_car_properties)
-1. [Analiza eksploracyjna - miejsca publkowania ogłoszeń](/analiza_eksploracyjna/exploratory_analysis_region)
-1. [Analiza eksploracyjna - oznaczanie podejrzanych ofert](/analiza_eksploracyjna/exploratory_analysis_labeling_data)
+1. [Analiza eksploracyjna - przegląd podstawowych informacji](/c_analiza_eksploracyjna/exploratory_analysis)
+1. [Analiza eksploracyjna - dostepne modele, wiek, stan, wyposażenie](/c_analiza_eksploracyjna/exploratory_analysis_car_properties)
+1. [Analiza eksploracyjna - miejsca publkowania ogłoszeń](/c_analiza_eksploracyjna/exploratory_analysis_region)
+1. [Analiza eksploracyjna - oznaczanie podejrzanych ofert](/c_analiza_eksploracyjna/exploratory_analysis_labeling_data)

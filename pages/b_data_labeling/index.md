@@ -140,5 +140,5 @@ Tak zbudowane zbiory danych zostały wykorzystane do zbudowania modeli ML, któr
 
 ### Spis treści bieżącej sekcji
 
-1. [Oznaczanie Danych przy pomocy VIN](/data_labeling/labeling_by_description)
-1. [Oznaczanie Danych przy pomocy opisu ogłoszenia](/analiza_modeli_ml/labeling_by_vin)
+1. [Oznaczanie Danych przy pomocy VIN](/b_data_labeling/labeling_by_description)
+1. [Oznaczanie Danych przy pomocy opisu ogłoszenia](/b_analiza_modeli_ml/labeling_by_vin)

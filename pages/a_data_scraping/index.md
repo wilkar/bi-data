@@ -43,5 +43,5 @@ Pod adresem wykorzystywanym przez scraper (OLX_API_URL = "https://www.olx.pl/api
 
 ### Spis treści bieżącej sekcji
 
-1. [Scraping forum internetowego bez-wypadkowe.net](/data_scraping/bezwypadkowe)
-1. [Scraping ofert Otomoto i OLX](/data_scraping/otomoto_and_olx)
+1. [Scraping forum internetowego bez-wypadkowe.net](/a_data_scraping/bezwypadkowe)
+1. [Scraping ofert Otomoto i OLX](/a_data_scraping/otomoto_and_olx)
