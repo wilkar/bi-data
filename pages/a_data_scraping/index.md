@@ -28,7 +28,7 @@ Chociaż scraping jest niezbędny dla działania wyszukiwarek takich jak Google,
 
 W przypadku analizowanego problemu dochodzi do zbierania i agregowania danych, co jest niezgodne z regulaminem. Jednak dane nie są przekazywane do podmiotów trzecich, a ich wykorzystanie ogaranicza się jedynie do przygotowania pracy inżynierskiej.
 
-![Fragment regulaminu OLX](/static/assets/olx_regulamin.png)
+![Fragment regulaminu OLX](/assets/olx_regulamin.png)
 Screen z regulaminu [OLX](https://pomoc.olx.pl/olxplhelp/s/article/aktualny-regulamin-V32-olx#0.1_r13)
 
 
@@ -38,7 +38,7 @@ Wiele serwisów internetowych stosuje plik robots.txt, który określa zasady do
 
 Pod adresem wykorzystywanym przez scraper (OLX_API_URL = "https://www.olx.pl/api/v1/offers/"), znajdują się reguły Allow, co oznacza zgodność z polityką serwisu OLX dotyczącą scrapingowania danych.
 
-![Screenshot pliku robotz.txt](/static/assets/olx_robots_txt.png)
+![Screenshot pliku robotz.txt](/assets/olx_robots_txt.png)
 
 
 ### Spis treści bieżącej sekcji

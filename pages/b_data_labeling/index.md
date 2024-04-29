@@ -51,7 +51,7 @@ Poniżej znajduje się 10 najczęściej powtarzających się wyników
 
 Poniższy diagram prezentuje logikę budowania zestawu danych z podejrzanymi ofertami.
 
-![Data Labelling by VIN](/static/assets/data_labelling_by_vin.png)
+![Data Labelling by VIN](/assets/data_labelling_by_vin.png)
 
 Wyniki zostały zapisane w tabeli `suspicious_offers` z następującym wynikiem:
 
@@ -70,7 +70,7 @@ Druga metoda oznaczania podejrzanych ogłoszeń przewidywała użycie potwierdzo
 Początkowo wykonano scraping forum, zbierając dane o uszkodzonych lub powypadkowych samochodach. Następnie, korzystając z analizy tekstu, zidentyfikowano ogłoszenia o podobnych opisach.
 
 Diagram scrapingu forum internetowego:
-![Bez-wypadkowe.net scraping](/static/assets/labelling_data_scraping.png)
+![Bez-wypadkowe.net scraping](/assets/labelling_data_scraping.png)
 
 Wynikiem pobierania danych było 613 numerów VIN co do których można było mieć pewność, że wskazują na auta uszkodzone lub powypadkowe.
 
@@ -102,7 +102,7 @@ ct
 Aby zbalansować zestaw danych podjęta została próba posłużenia się opisem ogłoszenia z 67 wytypowanych ofert w celu odnalezienia ogłoszeń posiadających podobny opis. Kierując się założeniem, że ogłoszeniodawcy wystawiający oferty posługują się podobnym stylem tworzenia opisów ofert.
 W tym celu zbudowano osobny moduł, które diagram sekwencyjny znajduje się poniżej.
 
-![Data Labelling by Description](/static/assets/data_labelling_by_description.png)
+![Data Labelling by Description](/assets/data_labelling_by_description.png)
 
 
 Wyniki zostały zapisane w tabeli `suspicious_offers_v2` z następującym wynikiem:

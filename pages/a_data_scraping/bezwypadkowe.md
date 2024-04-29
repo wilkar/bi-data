@@ -6,7 +6,7 @@ title: Scraping forum internetowego bez-wypadkowe.net
 
 Początkowym założeniem projektu było wykorzystanie danych z wspomnianego forum do automatycznego oznaczania wysoce podejrzanych ofert. Forum gromadzi użytkowników wymieniających się wiedzą o motoryzacji, oględzinach i zakupie uzywanego auta. Jedno z subforów jest poświęcone oszustwom. 
 
-![Przykładowy post z forum bez-wypadkowe.net](/static/assets/bez-wypadkowe-net_przykladowe-ogloszenie.png)
+![Przykładowy post z forum bez-wypadkowe.net](/assets/bez-wypadkowe-net_przykladowe-ogloszenie.png)
 
 
 Scraper wykrzystuję tą samą klasę bazową co scraper OLX i OTOMOTO. Iteruje po wszystkich podstronach i paginacji oraz zbiera i zapisuje odnalezione numery VIN.
