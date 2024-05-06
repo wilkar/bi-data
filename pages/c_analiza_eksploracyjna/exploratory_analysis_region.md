@@ -27,7 +27,7 @@ select region, count(*) as ct from offers_location where region like '${inputs.r
 ```sql cities
 select city, region, count(*) as ct from offers_location where region like '${inputs.city.value}' group by region, city
 ```
-
+### Dystrybucja ofert w województwach
 <BarChart 
  data={regions}
  x=region 
@@ -35,6 +35,7 @@ select city, region, count(*) as ct from offers_location where region like '${in
  swapXY=true
 />
 
+### Dystrybucja ofert w miastach
 <DataTable 
  data={cities}
  search=true

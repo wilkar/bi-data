@@ -14,7 +14,7 @@ from offers_base as ob
 group by ob.brand
 order by ct desc
 ```
-
+### Dystrybucja ze względu na markę
 <Chart data={label_brand} x=brand y=ct>
     <Bar/>
 </Chart>
@@ -29,7 +29,7 @@ from (select vin, city
 group by ob.city
 order by ct desc
 ```
-
+### Dystrybucja ze względu na miasto wystawienia oferty
 <Chart data={label_city} x=city y=ct>
     <Bar/>
 </Chart>

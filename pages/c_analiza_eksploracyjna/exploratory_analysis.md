@@ -17,6 +17,11 @@ select count(*) as total_offers from offers_base
 ```sql total_ads_per_brand
 select lower(brand) as brand, count(*) as total_offers from offers_base group by brand order by total_offers desc limit 20
 ```
+
+```sql total_ads
+select count(*) as ct from offers_base
+```
+
 <BarChart
 data={total_ads_per_brand}
 x=brand

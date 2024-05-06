@@ -136,6 +136,7 @@ ORDER BY AVG(milage) DESC
     <Column id=avg_milage />
 </DataTable>
 
+### Dystrybucje ze względu na typ kolor
 
 ```sql colors_query
 select color, count(*) as ct from offers_details group by color
@@ -149,6 +150,7 @@ select color, count(*) as ct from offers_details group by color
 />
 
 ----
+### Dystrybucje ze względu na typ nadwozia
 
 ```sql car_body_query
 select car_body, count(*) as ct from offers_details group by car_body
@@ -163,7 +165,7 @@ select car_body, count(*) as ct from offers_details group by car_body
 
 
 ----
-
+### Dystrybucje ze względu na typ skrzyni biegów
 ```sql transmission_query
 select transmission, count(*) as ct from offers_details group by transmission
 ```
@@ -177,6 +179,7 @@ select transmission, count(*) as ct from offers_details group by transmission
 
 ----
 
+### Dystrybucje ze względu na pochodzenie
 
 ```sql country_region
 select country_origin, count(*) as ct from offers_details group by country_origin
@@ -190,6 +193,7 @@ select country_origin, count(*) as ct from offers_details group by country_origi
 />
 
 ----
+### Dystrybucje ze względu położenie kierownicy
 
 ```sql righthanddrive_query
 select righthanddrive, count(*) as ct from offers_details group by righthanddrive
@@ -203,6 +207,7 @@ select righthanddrive, count(*) as ct from offers_details group by righthanddriv
 />
 
 ----
+### Dystrybucje ze względu na rodzaj paliwa
 
 ```sql petrol_query
 select petrol, count(*) as ct from offers_details group by petrol

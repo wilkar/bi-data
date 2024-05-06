@@ -125,3 +125,8 @@ limit 10;
     y=ct 
     xAxisTitle="Podejrzane oferty wg miasta"
 />
+
+
+```sql label_data
+select is_suspicious, count(*) as ct from suspicious_offers_v2 group by is_suspicious
+```
