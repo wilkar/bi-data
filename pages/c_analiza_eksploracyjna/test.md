@@ -226,7 +226,7 @@ GROUP BY origin, region)
     y=ct 
     series=origin
     type=stacked100
-    colors={{ "Polska": "509648", "EU": "964848", "non-EU": "969248"}}
+    colors={{ "Polska": "#509648", "EU": "#964848", "non-EU": "#969248"}}
 />
 
 ---
@@ -291,7 +291,7 @@ GROUP BY region, is_valid_vin;
     series=is_valid_vin
     type=stacked100
     swapXY=true
-    colors={{ valid_vin: "509648", invalid_vin: "964848" }}
+    colors={{ valid_vin: "#509648", invalid_vin: "#964848" }}
 />
 
 
@@ -326,6 +326,6 @@ GROUP BY brand, is_valid_vin;
     series=is_valid_vin
     type=stacked100
     swapXY=true
-    colors={{ valid_vin: "509648", invalid_vin: "964848" }}
+    colors={{ valid_vin: "#509648", invalid_vin: "#964848" }}
 />
  
