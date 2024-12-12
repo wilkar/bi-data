@@ -104,17 +104,18 @@ select milage from offers_details as od left join offers_base as ob on od.clasfi
     x=milage 
     fmt=num2
 />
+<Notation x=154751 text="średnia" />
+<Notation x=155000 text="Mediana" />
 
 
-```sql price_histogram
-select price from offers_details as od left join offers_base as ob on od.clasfieds_id = ob.clasfieds_id where price is not null and price < 400000 and brand like '${inputs.brand.value}'
-```
 
     <Histogram
     data={price_histogram} 
     x=price 
     fmt=num2
 />
+<Notation x=74151 text="średnia" />
+<Notation x=39700 text="Mediana" />
 
 ---
 ### Regions
@@ -226,6 +227,7 @@ GROUP BY origin, region)
     y=ct 
     series=origin
     type=stacked100
+    colors={{Polska: 'green', EU: 'yellow', non-EU: 'red'}}
 />
 
 ---
@@ -290,6 +292,7 @@ GROUP BY region, is_valid_vin;
     series=is_valid_vin
     type=stacked100
     swapXY=true
+    colors={{invalid_vin: 'red', valid_vin: 'green'}}
 />
 
 
@@ -324,5 +327,6 @@ GROUP BY brand, is_valid_vin;
     series=is_valid_vin
     type=stacked100
     swapXY=true
+    colors={{invalid_vin: 'red', valid_vin: 'green'}}
 />
  

@@ -26,7 +26,7 @@ select count(*) as ct from offers_base
 data={total_ads_per_brand}
 x=brand
 y=total_offers
-fillCollor='488f96'
+fillCollor='green'
 ></BarChart>
 Na wykresie widoczne są najpopularniejsze marki aut dostępne w serwisach OLX oraz OTOMOTO. Nazwa marki została sprowadzona do małych liter (lower), ponieważ nazwa marki została wzięta z tytułu ogłoszenia. Użytkownicy wpisują markę auta na różne sposoby a czasami zaczynają tytuł od innych słów, stąd ten zestaw danych zawiera dużo niepoprawnych wartości.
 
