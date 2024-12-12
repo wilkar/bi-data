@@ -175,7 +175,7 @@ ORDER BY scraped_date DESC;
 data={scraped_date}
 x=scraped_date
 y=ct
-fillCollor='488f96'
+fillCollor='509648'
 >
   <ReferenceArea xMin="2024-03-11" xMax="2024-03-13" label="Pierwszy pełny obieg scrapera" color=red/> </BarChart>
 
